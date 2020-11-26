@@ -1,0 +1,68 @@
+.container-landing{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('./BG.svg') no-repeat 50%;
+    background-size: 100%, 100%;
+    flex-direction: column;
+}
+
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.formUsername {
+    width: 300px;
+    height: 45px;
+
+}
+
+.formPassword {
+    width: 300px;
+    height: 45px;
+
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.singIn {
+    
+    position: relative;
+    width: 150px;
+    height: 45px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #2148C0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.loginButton {
+    
+    position: relative;
+    width: 150px;
+    height: 45px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #2148C0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+}
+
+
